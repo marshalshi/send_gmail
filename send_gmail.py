@@ -1,7 +1,7 @@
 '''
 How to use:
   1. User your own gmail address and password in below `SendGmail` class.
-  2. use:
+  2. Use:
     >>> from send_gmail import SendGmail
     >>> sg = SendGmail()
     >>> sg.login()
@@ -49,6 +49,4 @@ class SendGmail:
 
     def logout(self):
         self.server.quit()
-
-
-    
+        
